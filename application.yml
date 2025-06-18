@@ -1,6 +1,6 @@
 lavalink:
     plugins:
-        - dependency: com.github.appujet:jiosaavn-plugin:1.0.3
+        - dependency: com.github.appujet:jiosaavn-plugin:1.0.5
           repository: https://jitpack.io
         - dependency: com.dunctebot:skybot-lavalink-plugin:1.7.0
           snapshot: false
