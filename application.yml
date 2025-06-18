@@ -1,5 +1,7 @@
 lavalink:
     plugins:
+        - dependency: com.github.appujet:jiosaavn-plugin:1.0.3
+          repository: https://jitpack.io
         - dependency: com.dunctebot:skybot-lavalink-plugin:1.7.0
           snapshot: false
         - dependency: com.github.topi314.lavasearch:lavasearch-plugin:1.0.0
@@ -50,7 +52,7 @@ lavalink:
         frameBufferDurationMs: 5000
         gc-warnings: true
         opusEncodingQuality: 10
-        password: jdagfwsewtg3
+        password: excelmusic
         playerUpdateInterval: 5
         resamplingQuality: HIGH
         soundcloudSearchEnabled: true
