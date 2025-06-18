@@ -52,7 +52,7 @@ lavalink:
         frameBufferDurationMs: 5000
         gc-warnings: true
         opusEncodingQuality: 10
-        password: excelmusic
+        password: jdagfwsewtg3
         playerUpdateInterval: 5
         resamplingQuality: HIGH
         soundcloudSearchEnabled: true
@@ -159,6 +159,8 @@ sentry:
     environment: ""
 server:
     address: 0.0.0.0
+    port: 443
+    ssl: true           
     http2:
         enabled: false
-    port: 443
+
