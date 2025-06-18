@@ -14,7 +14,7 @@ lavalink:
           snapshot: false
     pluginsDir: ./plugins
     server:
-        bufferDurationMs: 1000
+        bufferDurationMs: 500
         filters:
             Vaporwave: true
             channelMix: true
@@ -92,7 +92,7 @@ metrics:
         endpoint: /metrics
 plugins:
     lavasrc:
-        lyrics-sources: false
+        lyrics-sources:
             deezer: false
             spotify: false
             youtube: false
