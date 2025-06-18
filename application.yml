@@ -1,5 +1,7 @@
 lavalink:
     plugins:
+        - dependency: com.github.appujet:jiosaavn-plugin:1.0.3
+          repository: https://jitpack.io
         - dependency: com.dunctebot:skybot-lavalink-plugin:1.7.0
           snapshot: false
         - dependency: com.github.topi314.lavasearch:lavasearch-plugin:1.0.0
@@ -12,7 +14,7 @@ lavalink:
           snapshot: false
     pluginsDir: ./plugins
     server:
-        bufferDurationMs: 500
+        bufferDurationMs: 1000
         filters:
             Vaporwave: true
             channelMix: true
@@ -50,7 +52,7 @@ lavalink:
         frameBufferDurationMs: 5000
         gc-warnings: true
         opusEncodingQuality: 10
-        password: jdagfwsewtg3
+        password: excelmusic
         playerUpdateInterval: 5
         resamplingQuality: HIGH
         soundcloudSearchEnabled: true
@@ -156,9 +158,7 @@ sentry:
     dsn: ""
     environment: ""
 server:
-  address: 0.0.0.0
-  port: 2333
-  ssl:
-    enabled: false
-
-
+    address: 0.0.0.0
+    http2:
+        enabled: false
+    port: 8080
