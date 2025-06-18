@@ -92,7 +92,7 @@ metrics:
         endpoint: /metrics
 plugins:
     lavasrc:
-        lyrics-sources:
+        lyrics-sources: false
             deezer: false
             spotify: false
             youtube: false
