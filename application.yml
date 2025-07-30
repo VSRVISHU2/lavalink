@@ -1,8 +1,12 @@
 lavalink:
     plugins:
+        - dependency: com.github.appujet:jiosaavn-plugin:1.0.3
+          repository: https://jitpack.io
         - dependency: com.dunctebot:skybot-lavalink-plugin:1.7.0
           snapshot: false
         - dependency: com.github.topi314.lavasearch:lavasearch-plugin:1.0.0
+          snapshot: false
+        - dependency: com.github.topi314.lavasrc:lavasrc-plugin:4.2.0
           snapshot: false
         - dependency: com.github.topi314.lavasrc:lavasrc-plugin:4.2.0
           snapshot: false
@@ -50,7 +54,7 @@ lavalink:
         frameBufferDurationMs: 5000
         gc-warnings: true
         opusEncodingQuality: 10
-        password: excelmusic
+        password: https://discord.gg/ExcelBot
         playerUpdateInterval: 5
         resamplingQuality: HIGH
         soundcloudSearchEnabled: true
@@ -159,4 +163,4 @@ server:
     address: 0.0.0.0
     http2:
         enabled: false
-    port: 8080
+    port: 6005
