@@ -10,7 +10,7 @@ COPY application.yml .
 COPY plugins ./plugins
 
 # Expose Lavalink port
-EXPOSE 8080
+EXPOSE 2333
 
 # Run Lavalink
 CMD ["java", "-Dlogback.configurationFile=logback.xml", "-jar", "Lavalink.jar"]
