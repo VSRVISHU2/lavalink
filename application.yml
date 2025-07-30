@@ -160,7 +160,7 @@ sentry:
     dsn: ""
     environment: ""
 server:
-    address: 0.0.0.0
+    address: lv-production.up.railway.app
     http2:
         enabled: false
     port: 2333
